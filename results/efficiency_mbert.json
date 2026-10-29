@@ -1,0 +1,43 @@
+{
+  "model_key": "mbert",
+  "checkpoint": "bert-base-multilingual-cased",
+  "run": "mbert_frac100_seed42",
+  "gpu": "NVIDIA L4",
+  "bf16": true,
+  "infer_batch_size": 32,
+  "max_len": 256,
+  "n_params": 177854209,
+  "weights_mem_mb": 678.4599647521973,
+  "by_k": {
+    "20": {
+      "latency_ms_mean": 40.59185645850826,
+      "latency_ms_std": 4.174916896471258,
+      "latency_ms_p50": 41.76481849981428,
+      "latency_ms_p95": 44.855300399626685,
+      "throughput_pairs_per_s": 491.21581129232305,
+      "throughput_queries_per_s": 24.63548325320299,
+      "peak_gpu_mem_mb": 998.17236328125,
+      "n_queries_timed": 940
+    },
+    "50": {
+      "latency_ms_mean": 89.71465805638256,
+      "latency_ms_std": 8.122745995650048,
+      "latency_ms_p50": 91.67474000014408,
+      "latency_ms_p95": 96.07052795004165,
+      "throughput_pairs_per_s": 554.1920352070388,
+      "throughput_queries_per_s": 11.146450554061461,
+      "peak_gpu_mem_mb": 1062.39111328125,
+      "n_queries_timed": 940
+    },
+    "100": {
+      "latency_ms_mean": 177.1952693574426,
+      "latency_ms_std": 16.989527143594525,
+      "latency_ms_p50": 181.67550899988782,
+      "latency_ms_p95": 187.12346145011907,
+      "throughput_pairs_per_s": 560.3566819337259,
+      "throughput_queries_per_s": 5.643491519983954,
+      "peak_gpu_mem_mb": 1062.39111328125,
+      "n_queries_timed": 940
+    }
+  }
+}

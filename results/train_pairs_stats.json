@@ -1,0 +1,13 @@
+{
+  "n_pairs": 44814,
+  "n_pos": 11244,
+  "n_neg": 33570,
+  "neg_ratio_actual": 2.9855923159018145,
+  "neg_ratio_target": 3,
+  "by_source": {
+    "judged": 19431,
+    "bm25_unlabeled": 14139,
+    "positive": 11244
+  },
+  "queries_short_of_negatives": 41
+}
