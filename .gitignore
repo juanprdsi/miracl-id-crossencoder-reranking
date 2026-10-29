@@ -1,0 +1,16 @@
+# File besar yang dapat dibuat ulang oleh notebooks/01_data_bm25.ipynb
+data/passages.parquet
+data/run.bm25.*.txt
+data/qrels.*.tsv
+data/topics.parquet
+
+# Checkpoint model (tidak disimpan)
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+
+# Sistem & Jupyter
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
