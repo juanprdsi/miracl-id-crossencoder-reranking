@@ -105,7 +105,7 @@ File besar berikut **tidak disertakan** karena bisa dibuat ulang oleh notebook 0
 | GPU (notebook 02) | NVIDIA L4, 23 GB VRAM, driver 580.82.07, CUDA 13.0 |
 | CPU / RAM | Intel Xeon @ 2,20 GHz. RAM 52 GB (runtime L4), 12 GB (runtime CPU) |
 | Library | torch 2.11.0, transformers 5.20.2, sentencepiece 0.2.2, numpy 2.1.3, pandas 2.2.3, scipy 1.16.3, pyarrow 23.0.1, matplotlib 3.10.0 |
-| IR toolkit | Pyserini (Java 21), pytrec-eval-terrier |
+| IR toolkit | Pyserini 2.4.0 (Anserini/Lucene, OpenJDK 21), pytrec-eval-terrier 0.5.11 |
 
 Daftar paket ada di [`requirements.txt`](requirements.txt).
 
